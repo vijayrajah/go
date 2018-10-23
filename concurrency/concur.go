@@ -38,4 +38,5 @@ func main() {
 	go funcb()
 	go funca()
 
+	time.Sleep(time.Millisecond * 3000) //this seep will 'wait' for all the go routines to be completed.. otherwise we get no output
 }
