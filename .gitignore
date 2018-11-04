@@ -12,3 +12,4 @@
 *.out
 .vscode
 */debug
+cli_test/cli_test
