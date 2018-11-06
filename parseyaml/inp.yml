@@ -1,0 +1,13 @@
+---
+name: lbname
+rg: testrg
+probe:
+- name: probe1
+  port: 8080
+rules:
+- name: lb-rule-1
+  port: 8080
+  probe: probe1
+- name: lb-rule-2
+  port: 80
+  probe: probe1

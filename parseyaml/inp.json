@@ -1,0 +1,23 @@
+{
+  "Name": "lbname",
+  "rg": "testrg",
+  "probe": 
+    [
+      {
+        "Name": "probe1",
+        "port": 8080
+      }
+    ],
+  "rule": [
+    {
+      "name": "lb-rule-1",
+      "port" : 8080,
+      "probe": "probe1"
+		},
+    {
+      "name": "lb-rule-2",
+      "port": 80,
+      "probe": "probe1"
+    }
+  ]
+}
