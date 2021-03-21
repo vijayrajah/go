@@ -4,8 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"strconv"
-
-	"github.com/jszwec/csvutil"
+	//"github.com/jszwec/csvutil"
 )
 
 type record struct {
